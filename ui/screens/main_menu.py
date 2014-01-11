@@ -4,7 +4,7 @@ import pygame
 class MainMenuScreen(ui.screens.screen.GameScreen):
     
     def render(self):
-        surface = pygame.Surface((320, 240))
+        surface = pygame.Surface(self.size)
         surface.fill((255,0,0))
         return surface
 

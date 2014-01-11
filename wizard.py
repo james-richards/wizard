@@ -10,7 +10,7 @@ clock = pygame.time.Clock()
 screen_stack = []
 
 
-screen_stack.append(ui.screens.main_menu.MainMenuScreen())
+screen_stack.append(ui.screens.main_menu.MainMenuScreen(screen.get_size()))
 
 # main loop
 while running:
