@@ -4,12 +4,16 @@ screen = pygame.display.set_mode((640, 480))
 
 running = True
 
+clock = pygame.time.Clock()
 
+
+# main loop
 while running:
-    event = pygame.event.poll()
-    screen.fill((255, 0, 0))
-    if event.type == pygame.QUIT:
-        running = False
+    clock.tick(60)
+
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            running = False
 
 
 
