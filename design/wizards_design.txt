@@ -1,0 +1,45 @@
+Turn-based abstract strategy with CYOA-style decisions.
+
+Concept:
+
+You are a wizard banished from the surface for some crime. You are teleported to a large system of caverns, inhabited by various unpleasant species. It is expected that you will die.
+
+Instead, you impress a small tribe of [goblins|orcs|whatever] with your powers, and convince them that you can lead them to glory. This is done CYOA style, so you could convince them by telling them how to grow better food, or by wowing their shaman with magical prowess, or by burning their chief to a crisp and asking them if anyone else feels lucky.
+
+From there, you have leadership of the tribe and the game proceeds.
+
+Gameplay takes two forms; you make a choice about what you will tell your people to do, and what you will do personally every season, and then in between seasons those events will play out potentially leading to choose your own adventure-style decision trees.
+
+Orders will be given to specific individuals, requiring resource allocation (eg. Tell Fred to dig mines, requires 20 workers for 1 month). The specific individuals you issue orders to ('Captains'?) will be tracked RPG-style, with their own stats and quirks. You (the wizard) can also act in place of these Captains, however that will mean you won't be able to do any of the special things that only you can do on a given turn.
+
+You will gain more captains over time, allowing you to accomplish more things at once.
+
+Example:
+
+Jan 2014: You direct a captain to work on expanding your mines, and you choose to personally spend time developing new strains of mushrooms to increase farm yield.
+
+In-between:
+
+While working on their expansion of the mines, your people encounter some kobolds who claim that they have lived in these caves for generations, and demand your miners leave:
+
+You choose to:
+1. Withdraw your miners, respecting the kobolds claim to the land. (Lose mining, but have potential for further deals and alliances with kobolds)
+2. Send in your troops to clear out the kobolds. (Expand mining, may gain loot/slaves from kobolds, but potential for failure in combat, as well as may be further diplomatic issues down the line)
+3. Attempt to negotiate access to mines in exchange for .... . (Expand mining, costs something, opens up options for trade/alliances later on).
+
+As part of your research into improving mushroom yields, you discover a strange new mushroom that makes those who eat it into ferocious warriors, able to fight without regard for their own safety. Do you:
+1. Distribute it to all of the warriors (all warriors gain berserker strength, high risk of problems)
+2. Distribute it to a select few warriors (some warriors gain berserker strength, still risking problems but not with everyone)
+3. Continue experiments with it to see if you can discover more (take up your next season)
+4. Discard it, you can't eat it
+
+Feb 2014: You send your captain to negotiate a trade deal with the kobolds you met, while you start working over some ancient documents you found in some ruins.
+
+UI:
+
+The interface will have two main views of the world. One of your primary settlement, and one showing the extent of the cavern system you have discovered thus far.
+
+Initial cut of the map will simply be a graph, with each vertex showing detail of that cavern on selection, as well as edges showing travelling units as they move.
+
+The settlement interface will show buildings, which you can select to perform specific functions or view specific details. You will add new buildings and upgrade existing ones as time passes.
+
